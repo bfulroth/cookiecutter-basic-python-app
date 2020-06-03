@@ -1,8 +1,9 @@
 {
-    "full_name": "Your name",
+    "full_name": "Ben Fulroth",
     "email": "Your address email (eg. you@example.com)",
     "github_username": "Your github username",
     "project_name": "Name of the project",
+    "script_name" : "script_name",
     "project_slug": "cookiecutter-{{ cookiecutter.project_name.lower().replace('cookiecutter', '').strip().replace(' ', '-') }}",
     "project_short_description": "A short description of the project",
     "release_date": "{% now 'local' %}",

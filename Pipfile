@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+expects = "==0.8.0"
+testfixtures = "==4.10.0"
+cookiecutter = "==1.4.0"
+mamba = "==0.8.6"
+pytest-cookies = "*"
+
+[packages]
+jinja2-time = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.8"

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d55b5b1d7e10239de1be81fe51431e9641940b26c499bf181abcda69997bf9a7"
+            "sha256": "162c1c08b4ca62cabd43bae915cd3e524dca3b783f9ba76c314338e34981f4d2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,6 +22,14 @@
                 "sha256:eb5d339f00072cc297d7de252a2e75f272085d1231a3723f1026d1fa91367118"
             ],
             "version": "==0.15.6"
+        },
+        "click": {
+            "hashes": [
+                "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
+                "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+            ],
+            "index": "pypi",
+            "version": "==7.1.2"
         },
         "flake8": {
             "hashes": [
@@ -160,6 +168,7 @@
                 "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
                 "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
             ],
+            "index": "pypi",
             "version": "==7.1.2"
         },
         "clint": {

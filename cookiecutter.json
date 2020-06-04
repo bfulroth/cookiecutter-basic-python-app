@@ -1,17 +1,12 @@
 {
     "full_name": "Ben Fulroth",
-    "email": "Your address email (eg. you@example.com)",
-    "github_username": "Your github username",
+    "email": "fulrothb@icloud.com",
+    "github_username": "bfulroth",
     "project_name": "Name of the project",
-    "script_name" : "script_name",
-    "project_slug": "cookiecutter-{{ cookiecutter.project_name.lower().replace('cookiecutter', '').strip().replace(' ', '-') }}",
+    "project_slug": "cookiecutter-{{ cookiecutter.project_name.lower().replace('cookiecutter', '').strip().replace(' ', '_') }}",
     "project_short_description": "A short description of the project",
+    "script_name" : "Script Name",
+    "script_slug": "cookiecutter-{{ cookiecutter.script_name.lower().replace('cookiecutter', '').strip().replace(' ', '_') }}",
     "release_date": "{% now 'local' %}",
-    "version": "0.1.0",
-    "copy_hooks": "no",
-    "_extensions": ["jinja2_time.TimeExtension"],
-    "_copy_without_render": [
-        "cookiecutter.json",
-        "{{cookiecutter.project_slug}}"
-    ]
+    "version": "0.1.0"
 }

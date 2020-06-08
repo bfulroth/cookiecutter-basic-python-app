@@ -1,7 +1,15 @@
+"""Main method and helper methods for {{cookiecutter.script_slug}}.py"""
+
+# Import the version of the script that can be used to tag the output file.
+from _version import __version__
+
+# Import system packages for determineing what OS the script is running on..
 import platform
 import os
-from _version import __version__
+
+# Import data wrangling Python packages
 import pandas as pd
+import numpy as np
 
 
 # Get the users home directory
@@ -13,7 +21,7 @@ else:
     homedir = os.environ['HOME']
 
 
-def main(arg_1, arg_2):
+def main(arg_1, arg_2, flag):
     """
     Main method for script...
     """

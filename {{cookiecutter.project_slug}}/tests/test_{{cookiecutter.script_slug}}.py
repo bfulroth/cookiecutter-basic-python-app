@@ -1,17 +1,25 @@
 """Module for testing {{cookiecutter.script_slug}}"""
 
+# Import modules from the unittesting framework
 from unittest import TestCase
 from unittest.mock import patch
+
+# Import pandas and numpy
 import pandas as pd
-from click.testing import CliRunner
 import numpy as np
 
+# Import click testing module
+from click.testing import CliRunner
+
+# Import the main method of the script for the command line interface entry point.
 from {{cookiecutter.script_slug}}.cli import main
 
 
 class test_Cli(TestCase):
+    """Class for testing the invocation of the '{{cookiecutter.script_slug}}' on the command line"""
 
     def test_Cli_somthing(self):
+        """Test invocation of the '{{cookiecutter.script_slug}}' script"""
 
         # Use the click CliRunner object for testing Click implemented Cli programs.
         runner = CliRunner()
@@ -22,6 +30,7 @@ class test_Cli(TestCase):
 
 
 class test_somthing(TestCase):
+    """Class for testing something"""
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -30,8 +39,14 @@ class test_somthing(TestCase):
         :return:
         """
 
+        # Variable to be used in all tests in this class.
         cls.var_name = ''
         pass
 
-    def test_somthing(self):
+    @patch('full.method.to.some.method', return_value=('return_something'))
+    def test_somthing(self, mock_1):
+        """
+        Test somthing...
+        :param mock_1: Mocks the 'fill this in' method
+        """
         pass

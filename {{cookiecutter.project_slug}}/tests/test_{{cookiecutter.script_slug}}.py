@@ -6,7 +6,7 @@ import pandas as pd
 from click.testing import CliRunner
 import numpy as np
 
-from {{cookiecutter.script_slug.cli}} import main
+from {{cookiecutter.script_slug}}.cli import main
 
 
 class test_Cli(TestCase):

@@ -11,7 +11,7 @@ __If using Mac OS 10.15 and greater:__
 command line: `xcode-select --install`
 
 2. Install `hombrew`<br/>
-command line: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+command line: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 3. Install `pipenv`<br/>
 command line: `brew install pipenv`

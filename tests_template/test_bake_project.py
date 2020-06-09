@@ -1,8 +1,8 @@
-from contextlib import contextmanager
+"""Module for testing the rendering of the template script"""
 
+from contextlib import contextmanager
 import os
 import subprocess
-
 
 @contextmanager
 def inside_dir(dirpath):

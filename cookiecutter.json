@@ -7,6 +7,5 @@
     "project_short_description": "A short description of the project",
     "script_name" : "Script Name",
     "script_slug": "{{ cookiecutter.script_name.lower().replace('cookiecutter', '').strip().replace(' ', '_') }}",
-    "release_date": "{% now 'local' %}",
-    "version": "0.1.0"
+    "release_date": "{% now 'local' %}"
 }

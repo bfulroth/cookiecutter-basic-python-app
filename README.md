@@ -1,37 +1,42 @@
 cookiecutter-template
 =====================
-[Cookiecutter](https://github.com/audreyr/cookiecutter) template for creating a... cookiecutter template...    
+[Cookiecutter](https://github.com/audreyr/cookiecutter) 
 
-##### Health status
-[![Travis CI - Build Status](https://travis-ci.org/eviweb/cookiecutter-template.svg)](https://travis-ci.org/eviweb/cookiecutter-template)
-[![Github - Last tag](https://img.shields.io/github/tag/eviweb/cookiecutter-template.svg)](https://github.com/eviweb/cookiecutter-template/tags)
+This is a template for creating a basic Command Line Python application.   
 
 Requirements
 ------------
-Install `cookiecutter` command line: `pip install cookiecutter`    
+__If using Mac OS 10.15 and greater:__
+
+*If you haven't installed `xcode`, `homebrew`, or `pipenv` please follow steps 1-3.*
+
+1. Install `xcode` command line tools<br/>
+command line: `xcode-select --install`
+
+2. Install `hombrew`<br/>
+command line: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+4. Install `cookiecutter`<br/>
+command line: `pip install cookiecutter` 
+
+5. Clone this template from GitHub<br/>
+In the directory of your choosing:<br/>
+command line: `git clone https://github.com/bfulroth/cookiecutter-basic-python-app.git`
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:eviweb/cookiecutter-template`   
+Generate a new Python application:<br/>
+command line: `cookiecutter path_to_this_template`
 
 Special Features
-----------------
-### Copy hooks
-> since 0.1.1    
+---------------- 
 
-Setting: `copy_hooks`    
-Default value: `no`    
-If set to `yes` the hooks directory is copied to the generated template.
 
 Contribute
 ----------
 If you'd like to contribute, fork this [repository](https://github.com/eviweb/cookiecutter-template), and send a pull request.    
-- To install dev requirements: `pip install -r requirements-dev.txt`     
-- To run tests from the root of the project directory: `mamba`     
-
->**Note on specifications**    
-> I'd really appreciate if you'd take the time to write specifications related to your adds.    
-> Specifications are done using [Mamba](http://nestorsalceda.github.io/mamba/) and lie under the ./specs directory.    
+- To install dev requirements: `pipenv install --dev`     
+- To run tests from the root of the project directory: `pytest`     
 
 License
 -------

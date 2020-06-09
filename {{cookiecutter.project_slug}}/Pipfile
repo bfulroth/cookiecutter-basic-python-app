@@ -12,6 +12,7 @@ setuptools-scm = "*"
 pytest = "*"
 pandas = "*"
 numpy = "*"
+python-dotenv = "*"
 
 
 [requires]

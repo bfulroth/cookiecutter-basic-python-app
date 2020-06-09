@@ -1,6 +1,6 @@
-cookiecutter-template
+cookiecutter-basic-python-app template
 =====================
-[Cookiecutter](https://github.com/audreyr/cookiecutter) 
+[Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/README.html) 
 
 This is a template for creating a basic Command Line Python application.   
 
@@ -28,7 +28,7 @@ Usage
 Generate a new Python application:<br/>
 command line: `cookiecutter path_to_this_template`<br/>
 
-Follow the prompts to to create the skeleton your Python application.
+Follow the prompts to to create the skeleton for your Python application.
 
 Special Features
 ---------------- 

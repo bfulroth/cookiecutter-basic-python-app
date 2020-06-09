@@ -7,6 +7,8 @@ Requirements
 ------------
 __If using Mac OS 10.15 and greater:__
 
+*If you haven't installed `xcode`, `homebrew`, or `pipenv` please follow steps 1-3.*
+
 1. Install `xcode` command line tools<br/>
 command line: `xcode-select --install`
 
@@ -16,14 +18,13 @@ command line: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/i
 3. Install `pipenv`<br/>
 command line: `brew install pipenv`
 
-4. Install `cookiecutter`<br/>
-command line: `pip install cookiecutter` 
-
 Usage
 -----
 
 __Create and activate a virtual environment using Pipenv__
-command line: `pipenv install --dev`
+command line: `pipenv install --dev`<br/>
+
+
  
 License
 -------

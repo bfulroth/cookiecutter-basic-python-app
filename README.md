@@ -8,7 +8,7 @@ Requirements
 ------------
 __If using Mac OS 10.15 and greater:__
 
-*If you haven't installed `xcode`, `homebrew`, or `pipenv` please follow steps 1-3.*
+*If you haven't installed `xcode`, `homebrew`, `pipenv`, or `cookiecutter` please follow steps 1-4.*
 
 1. Install `xcode` command line tools<br/>
 command line: `xcode-select --install`
@@ -16,17 +16,19 @@ command line: `xcode-select --install`
 2. Install `hombrew`<br/>
 command line: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-4. Install `cookiecutter`<br/>
-command line: `pip install cookiecutter` 
-
-5. Clone this template from GitHub<br/>
+3. Clone this template from GitHub<br/>
 In the directory of your choosing:<br/>
 command line: `git clone https://github.com/bfulroth/cookiecutter-basic-python-app.git`
+
+4. Install cookiecutter<br/>
+command line: `brew install cookiecutter`
 
 Usage
 -----
 Generate a new Python application:<br/>
-command line: `cookiecutter path_to_this_template`
+command line: `cookiecutter path_to_this_template`<br/>
+
+Follow the prompts to to create the skeleton your Python application.
 
 Special Features
 ---------------- 

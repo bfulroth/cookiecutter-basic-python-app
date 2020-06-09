@@ -43,7 +43,7 @@ class test_something(TestCase):
         cls.var_name = ''
         pass
 
-    @patch('full.method.to.some.method', return_value='return_something')
+    @patch('full.path.to.some.method', return_value='return_something')
     def test_something(self, mock_1):
         """
         Test something...

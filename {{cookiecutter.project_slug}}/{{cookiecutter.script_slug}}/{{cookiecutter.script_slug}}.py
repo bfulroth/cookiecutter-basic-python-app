@@ -3,7 +3,7 @@
 # Import the version of the script that can be used to tag the output file.
 from _version import __version__
 
-# Import system packages for determineing what OS the script is running on..
+# Import system packages for determining what OS the script is running on..
 import platform
 import os
 

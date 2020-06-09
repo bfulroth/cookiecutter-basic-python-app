@@ -29,7 +29,7 @@ class test_Cli(TestCase):
         self.assertEqual(0, result.exit_code)
 
 
-class test_somthing(TestCase):
+class test_something(TestCase):
     """Class for testing something"""
 
     @classmethod
@@ -43,10 +43,10 @@ class test_somthing(TestCase):
         cls.var_name = ''
         pass
 
-    @patch('full.method.to.some.method', return_value=('return_something'))
-    def test_somthing(self, mock_1):
+    @patch('full.method.to.some.method', return_value='return_something')
+    def test_something(self, mock_1):
         """
-        Test somthing...
+        Test something...
         :param mock_1: Mocks the 'fill this in' method
         """
         pass

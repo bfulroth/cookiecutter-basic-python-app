@@ -18,7 +18,7 @@ from {{cookiecutter.script_slug}}.cli import main
 class test_Cli(TestCase):
     """Class for testing the invocation of the '{{cookiecutter.script_slug}}' on the command line"""
 
-    def test_Cli_somthing(self):
+    def test_Cli_something(self):
         """Test invocation of the '{{cookiecutter.script_slug}}' script"""
 
         # Use the click CliRunner object for testing Click implemented Cli programs.

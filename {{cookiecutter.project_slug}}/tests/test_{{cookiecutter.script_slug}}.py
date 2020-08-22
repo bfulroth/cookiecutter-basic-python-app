@@ -12,7 +12,7 @@ import numpy as np
 from click.testing import CliRunner
 
 # Import the main method of the script for the command line interface entry point.
-from {{cookiecutter.script_slug}}.cli import main
+from {{cookiecutter.script_slug}}.cli import run_main
 
 
 class test_Cli(TestCase):
@@ -23,7 +23,7 @@ class test_Cli(TestCase):
 
         # Use the click CliRunner object for testing Click implemented Cli programs.
         runner = CliRunner()
-        result = runner.invoke(main, ['--option_1', 'EXAMPLE_path_to_fixture_', 'option_2',
+        result = runner.invoke(run_main, ['--option_1', 'EXAMPLE_path_to_fixture_', 'option_2',
                                                         'input_2'])
 
         self.assertEqual(0, result.exit_code)

@@ -11,5 +11,5 @@ import click
               help="Replace with help menu text")
 @click.option('--option_2', prompt="Replace your prompt for this option here" ,help="Replace with help menu text")
 @click.option('--change_this_flag_name', is_flag=True, help="Replace with help menu text")
-def main(option_1, option_2, change_this_flag_name):
+def run_main(option_1, option_2, change_this_flag_name):
     main(arg_1=option_1, arg_2=option_2, change_this_flag_name=change_this_flag_name)

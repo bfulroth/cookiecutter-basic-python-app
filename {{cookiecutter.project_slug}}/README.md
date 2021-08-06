@@ -10,13 +10,16 @@ __If using Mac OS 10.15 and greater:__
 *If you haven't installed `xcode`, `homebrew`, or `pipenv` please follow steps 1-3.*
 
 1. Install `xcode` command line tools<br/>
-command line: `xcode-select --install`
+-`xcode-select --install`
 
 2. Install `hombrew`<br/>
-command line: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-3. Install `pipenv`<br/>
-command line: `brew install pipenv`
+3. If using Pipenv to manage your environment:
+   - Install `pipenv`<br/>
+     - `brew install pipenv`
+4. If using Conda to manage our environment and you don't have conda installed.
+   - `brew install --cask miniconda`
 
 Usage
 -----

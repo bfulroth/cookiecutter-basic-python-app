@@ -11,6 +11,15 @@ import os
 import pandas as pd
 import numpy as np
 
+# Import utility packages
+import logging
+
+# Set the date to include in the file directory if a crash occures
+NOW = datetime.now()
+NOW = NOW.strftime('%y%m%d')
+
+# Configure logger
+logging.basicConfig(level=logging.INFO)
 
 # Get the users home directory
 if platform.system() == "Windows":
